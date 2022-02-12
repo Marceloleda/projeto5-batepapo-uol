@@ -1,0 +1,51 @@
+body{
+    background: #F3F3F3;
+}
+.topo{
+    background-color:white;
+    width: 375px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    box-shadow: 1px 1px 5px black;
+}
+.mensagem{
+    background-color:white;
+    margin-top: 507px;
+    width: 375px;
+    height: 80px;
+    box-shadow: 1px 1px 5px black;
+    font-family: 'Roboto', sans-serif;
+
+}
+.textBox{
+    width: 260px;
+    height: 60px;
+    margin-left: 17px;
+    margin-top: 9px;
+    border: #F3F3F3;
+
+}
+.logoUOL{
+    position: absolute;
+    width: 75px;
+    height: 53px;
+    left: 22px;
+    top: 16px;
+}
+.logoVector{
+    position: absolute;
+    Width: 42,19px;
+    Height: 30,94px;
+    margin-top: 25px;
+    margin-left: 310px;  
+    margin-bottom: 24px;
+    margin-right: 22px;
+}
+.botaoEnviar{
+    position: absolute;
+    Width:26px;
+    Height: 26px;
+    margin-top: 28px;
+    margin-left: 22px ;
+}
