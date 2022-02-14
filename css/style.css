@@ -8,14 +8,19 @@ body{
     left: 0;
     top: 0;
     box-shadow: 1px 1px 5px black;
+    /* position: fixed; */
+}
+.batePapo{
+    height: 75px;
+    margin-top: 430px ;
 }
 .mensagem{
     background-color:white;
-    margin-top: 507px;
     width: 375px;
     height: 80px;
     box-shadow: 1px 1px 5px black;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
 
 }
 .textBox{
