@@ -15,7 +15,7 @@ function obterMensagens() {
       alert("erro na hora de receber mensagens!");
     })
   }
-function NomeUsuario() {
+function nomeUsuario() {
     usuario = prompt("digite o seu lindo nome: ");
     const promise = axios.post(`${UOL_API}/participants`, { name: usuario });
     promise.then(() => {
@@ -24,7 +24,7 @@ function NomeUsuario() {
       setInterval(obterMensagens, TEMPOOBTERMENSAGENS);
       setInterval(manterUsuario, TEMPOATUALIZACAOCONEXAO);
     });
-    promise.catch(erro => NomeUsuario());
+    promise.catch(erro => nomeUsuario());
   }
 
   function renderizarMensagens(mensagens) {
@@ -38,7 +38,7 @@ function NomeUsuario() {
       const destinatario = mensagem.to;
       const horario = mensagem.time;
   
-      let mensagemHTML = null;
+      let mensagemHTML;
       if(tipo === "status") {
         mensagemHTML = `
         <li class="mensagem status">
@@ -112,4 +112,4 @@ function focarNaUltimaMensagem() {
       window.location.reload();
     })
   }
-  NomeUsuario();
+  nomeUsuario();

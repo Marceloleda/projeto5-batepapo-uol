@@ -12,6 +12,7 @@
   body {
     width: 100vw;
     background-color: var(--cor-fundo);
+    
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;
